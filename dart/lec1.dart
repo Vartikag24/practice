@@ -1,3 +1,4 @@
+import 'dart:io';
 void main() {
   
   String fName = 'Vartika';
@@ -13,5 +14,10 @@ void main() {
   print(age);
   print(houseNo);
   print(isEmployed);
+
+  stdout.writeln("Enter a string");
+  String s=stdin.readLineSync();
+  print('You entered $s');
+
    
 }
